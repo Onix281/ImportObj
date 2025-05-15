@@ -1,0 +1,909 @@
+# Blender 4.4.3 MTL File: 'None'
+# www.blender.org
+
+newmtl BLACK
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/black.dds
+map_d -o 0 0 1 C:/black.dds
+
+newmtl BOLT
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/plastic.dds
+map_d -o 0 0 1 C:/plastic.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/68.DDS
+
+newmtl BOLTS_RIM
+Ns 564.424683
+Ka 1.000000 1.000000 1.000000
+Kd 0.085027 0.085027 0.085027
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+
+newmtl Body
+Ns 558.328186
+Ka 1.000000 1.000000 1.000000
+Kd 0.529621 1.000000 0.222548
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+
+newmtl CAM
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.300000 0.300000 0.300000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/23.DDS
+map_d -o 0 0 1 C:/23.DDS
+
+newmtl Caliper_ao
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o -24.5 -24.5 1 -s 0.02 0.02 1 C:/caliper_detail.dds
+map_Ks -o -24.5 -24.5 1 -s 0.02 0.02 1 C:/Caliper_ao.dds
+map_d -o -24.5 -24.5 1 -s 0.02 0.02 1 C:/caliper_detail.dds
+map_Bump -o -24.5 -24.5 1 -s 0.02 0.02 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl Caliper_decal
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/Caliper_decal.dds
+map_d -o 0 0 1 C:/Caliper_decal.dds
+
+newmtl DIFF_COLOR
+Ns 466.640656
+Ka 1.000000 1.000000 1.000000
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/29.DDS
+map_d C:/29.DDS
+
+newmtl DIFF_COLOR2
+Ns 442.751007
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/57.DDS
+map_d C:/57.DDS
+map_Bump -bm 1.000000 C:/109.DDS
+
+newmtl EXH_DOT
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/48.DDS
+map_d -o 0 0 1 C:/48.DDS
+map_Bump -o 0 0 1 -bm 1.000000 C:/15.DDS
+
+newmtl EXT_CB_PART
+Ns 273.243774
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Kd -s 2.7 35.8 1 C:/common_carbon05_black_diff.png
+map_Bump -s 2.7 35.8 1 -bm 1.000000 C:/common_carbon05_norm.png
+
+newmtl EXT_CHROME
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0.5 0.5 1 C:/ext_metal.dds
+map_Ks -o 0.5 0.5 1 C:/ext chrome.dds
+map_d -o 0.5 0.5 1 C:/ext_metal.dds
+map_Bump -o 0.5 0.5 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl EXT_GLASS
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.500000
+illum 6
+
+newmtl EXT_GRILL
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/46.dds
+map_d -o 0 0 1 C:/46.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/56.DDS
+
+newmtl EXT_GRILL_F
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/91.DDS
+map_d -o 0 0 1 C:/91.DDS
+map_Bump -o 0 0 1 -bm 1.000000 C:/112.DDS
+
+newmtl EXT_GRILL_R
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/22.dds
+map_d -o 0 0 1 C:/22.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/59.DDS
+
+newmtl EXT_PLAS
+Ns 684.380127
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/plastic.dds
+map_d C:/plastic.dds
+
+newmtl EXT_SUBLIGHT_C
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0.5 0.5 1 C:/ext_metal.dds
+map_Ks -o 0.5 0.5 1 C:/ext_metal.dds
+map_d -o 0.5 0.5 1 C:/ext_metal.dds
+map_Bump -o 0.5 0.5 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl GLASS.001
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/glass_clear.dds
+map_d -o 0 0 1 C:/glass_clear.dds
+
+newmtl GlassAmber.001
+Ns 648.231445
+Ka 1.000000 1.000000 1.000000
+Kd 0.896270 0.291771 0.003347
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.563519
+illum 6
+
+newmtl GlassMtl
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.537296
+illum 6
+
+newmtl Grille9A.001
+Ns 710.089661
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+map_Bump -bm 1.000000 C:/Lamborghini_DiabloSV_1997_Grille9A_Normal.png
+
+newmtl HL_NM
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 6
+map_Kd -o 0 0 1 C:/ext_glass.dds
+map_d -o 0 0 1 C:/ext_glass.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/62.dds
+
+newmtl INT_ALCAN
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o -99.5 -99.5 1 -s 0.005 0.005 1 C:/plastic.dds
+map_Ks -o -99.5 -99.5 1 -s 0.005 0.005 1 C:/interiors_ao.dds
+map_d -o -99.5 -99.5 1 -s 0.005 0.005 1 C:/plastic.dds
+map_Bump -o -99.5 -99.5 1 -s 0.005 0.005 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl INT_B_NULL_NM
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.560000 0.560000 0.560000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/plastic.dds
+map_d -o 0 0 1 C:/plastic.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/55.DDS
+
+newmtl INT_CARBON
+Ns 101.766411
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o -349.5 -349.5 1 -s 0.0014285714 0.0014285714 1 C:/14.DDS
+map_Ks -o -349.5 -349.5 1 -s 0.0014285714 0.0014285714 1 C:/interiors_ao.dds
+map_d -o -349.5 -349.5 1 -s 0.0014285714 0.0014285714 1 C:/14.DDS
+map_Bump -o -349.5 -349.5 1 -s 0.0014285714 0.0014285714 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl INT_CARPET
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o -24.5 -24.5 1 -s 0.02 0.02 1 C:/99.DDS
+map_Ks -o -24.5 -24.5 1 -s 0.02 0.02 1 C:/interiors_ao.dds
+map_d -o -24.5 -24.5 1 -s 0.02 0.02 1 C:/99.DDS
+map_Bump -o -24.5 -24.5 1 -s 0.02 0.02 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl INT_CHROME
+Ns 601.274231
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/ext_metal.dds
+map_Ks C:/ext_metal.dds
+map_d C:/ext_metal.dds
+map_Bump -bm 1.000000 C:/flat_nm.dds
+
+newmtl INT_CINTURE_DIFF
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/Grey_Diff.dds
+map_d -o 0 0 1 C:/Grey_Diff.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/86.DDS
+
+newmtl INT_CINTURE_SUB
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.360000 0.360000 0.360000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/94.DDS
+map_d -o 0 0 1 C:/94.DDS
+map_Bump -o 0 0 1 -bm 1.000000 C:/104.DDS
+
+newmtl INT_CLUSTER
+Ns 5.548211
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/114.DDS
+map_d C:/114.DDS
+map_Bump -bm 1.000000 C:/flat_nm.dds
+
+newmtl INT_COLORS
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/29.DDS
+map_d -o 0 0 1 C:/29.DDS
+map_Bump -o 0 0 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl INT_DECAL
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/101.DDS
+map_d C:/101.DDS
+
+newmtl INT_DECAL_2DIN
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/74.DDS
+map_d -o 0 0 1 C:/74.DDS
+
+newmtl INT_DECAL_C
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/100.DDS
+map_d -o 0 0 1 C:/100.DDS
+
+newmtl INT_DECAL_SUB
+Ns 77.274452
+Ka 1.000000 1.000000 1.000000
+Ks 0.560000 0.560000 0.560000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/98.DDS
+map_d -o 0 0 1 C:/98.DDS
+map_Bump -o 0 0 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl INT_GLASS
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/int_glass.dds
+map_d -o 0 0 1 C:/int_glass.dds
+
+newmtl INT_GLOSSBLACK
+Ns 923.232605
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/ext_glass.dds
+map_d -o 0 0 1 C:/ext_glass.dds
+
+newmtl INT_LAMBOR_DECAL_NM
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.560000 0.560000 0.560000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/plastic.dds
+map_d -o 0 0 1 C:/plastic.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/31.DDS
+
+newmtl INT_LEATHER
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o -149.5 -149.5 1 -s 0.0033333334 0.0033333334 1 C:/plastic.dds
+map_Ks -o -149.5 -149.5 1 -s 0.0033333334 0.0033333334 1 C:/interiors_ao.dds
+map_d -o -149.5 -149.5 1 -s 0.0033333334 0.0033333334 1 C:/plastic.dds
+map_Bump -o -149.5 -149.5 1 -s 0.0033333334 0.0033333334 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl INT_PEDAL
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/72.DDS
+map_d -o 0 0 1 C:/72.DDS
+map_Bump -o 0 0 1 -bm 1.000000 C:/96.DDS
+
+newmtl INT_PLAS
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o -14.5 -14.5 1 -s 0.033333335 0.033333335 1 C:/plastic.dds
+map_Ks -o -14.5 -14.5 1 -s 0.033333335 0.033333335 1 C:/interiors_ao.dds
+map_d -o -14.5 -14.5 1 -s 0.033333335 0.033333335 1 C:/plastic.dds
+map_Bump -o -14.5 -14.5 1 -s 0.033333335 0.033333335 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl INT_PLAS_SM
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0.5 0.5 1 C:/plastic.dds
+map_Ks -o 0.5 0.5 1 C:/interiors_ao.dds
+map_d -o 0.5 0.5 1 C:/plastic.dds
+map_Bump -o 0.5 0.5 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl INT_SEAT
+Ns 204.086227
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/plastic.dds
+map_Ks C:/interiors_ao.dds
+map_d C:/plastic.dds
+map_Bump -bm 1.000000 C:/flat_nm.dds
+
+newmtl INT_SEAT_DECAL
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/110.png
+map_d C:/110.png
+map_Bump -bm 1.000000 C:/117.png
+
+newmtl INT_SOME?
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.020000 0.020000 0.020000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/black.dds
+map_d -o 0 0 1 C:/black.dds
+
+newmtl INT_SPEAKER
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/75.DDS
+map_d -o 0 0 1 C:/75.DDS
+map_Bump -o 0 0 1 -bm 1.000000 C:/93.DDS
+
+newmtl INT_STRIP
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/strip_diff.dds
+map_d -o 0 0 1 C:/strip_diff.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/strip_nm.dds
+
+newmtl INT_SUB_CARPET
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/plastic.dds
+map_d -o 0 0 1 C:/plastic.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/59.DDS
+
+newmtl INT_SUB_DIFF
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/45.DDS
+map_d -o 0 0 1 C:/45.DDS
+
+newmtl LAMBOR_OH
+Ns 496.384338
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/89.DDS
+map_d -o 0 0 1 C:/89.DDS
+map_Bump -o 0 0 1 -bm 1.000000 C:/67.DDS
+
+newmtl LightA.001
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/Lamborghini_DiabloSV_1997_LightA_Diffuse.png
+map_d C:/Lamborghini_DiabloSV_1997_LightA_Diffuse.png
+
+newmtl MORE_CHROME
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/MORE_CHROME_BaseColor.1011.png
+map_d C:/MORE_CHROME_BaseColor.1011.png
+map_Bump -bm 1.000000 C:/MORE_CHROME_Normal.1011.png
+
+newmtl Material.001
+Ns 250.000000
+Ka 0.564767 0.564767 0.564767
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+
+newmtl Material.002
+Ns 54.444229
+Ka 0.912821 0.912821 0.912821
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+
+newmtl Material_#108567
+Ns 562.166565
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o -21.5 -21.5 1 -s 0.022727273 0.022727273 1 C:/alu_raw.dds
+map_Ks -o -21.5 -21.5 1 -s 0.022727273 0.022727273 1 C:/body_a_SUB17Ambient Occlusion _MR_.dds
+map_d -o -21.5 -21.5 1 -s 0.022727273 0.022727273 1 C:/alu_raw.dds
+map_Bump -o -21.5 -21.5 1 -s 0.022727273 0.022727273 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl Material_#15268
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/bumperf_a_SUB4Ambient Occlusion _MR_.dds
+map_d -o 0 0 1 C:/bumperf_a_SUB4Ambient Occlusion _MR_.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl Material_#18
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0.5 0.5 1 C:/ext_metal.dds
+map_Ks -o 0.5 0.5 1 C:/ext_metal.dds
+map_d -o 0.5 0.5 1 C:/ext_metal.dds
+map_Bump -o 0.5 0.5 1 -bm 1.000000 C:/49.DDS
+
+newmtl Material_#5564
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd -o 0 0 1 C:/enginebay_a__slod_SUB10Ambient Occlusion _MR_.dds
+map_d -o 0 0 1 C:/enginebay_a__slod_SUB10Ambient Occlusion _MR_.dds
+
+newmtl Material_#60567
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o -12 -12 1 -s 0.04 0.04 1 C:/metal_detail_wheel2.dds
+map_Ks -o -12 -12 1 -s 0.04 0.04 1 C:/centerconsolestructure_a_SUB5Ambient Occlusion _MR_.dds
+map_d -o -12 -12 1 -s 0.04 0.04 1 C:/metal_detail_wheel2.dds
+map_Bump -o -12 -12 1 -s 0.04 0.04 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl Material_#77
+Ns 121.604195
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o -12 -12 1 -s 0.04 0.04 1 C:/metal_detail_wheel2.dds
+map_Ks -o -12 -12 1 -s 0.04 0.04 1 C:/taillightr_a_SUB5Ambient Occlusion _MR_.dds
+map_d -o -12 -12 1 -s 0.04 0.04 1 C:/metal_detail_wheel2.dds
+map_Bump -o -12 -12 1 -s 0.04 0.04 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl Mirror
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.020000 0.020000 0.020000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/Mirror.DDS
+map_d -o 0 0 1 C:/Mirror.DDS
+
+newmtl NULL
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/NULL.dds
+map_d -o 0 0 1 C:/NULL.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl Plate_light
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/54.DDS
+map_d -o 0 0 1 C:/54.DDS
+
+newmtl Projecter
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/ext_glass.dds
+map_d -o 0 0 1 C:/ext_glass.dds
+
+newmtl RADIATOR
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/16.DDS
+map_d -o 0 0 1 C:/16.DDS
+map_Bump -o 0 0 1 -bm 1.000000 C:/21.DDS
+
+newmtl REAR_LIGHTS
+Ns 703.817871
+Ka 1.000000 1.000000 1.000000
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 6
+map_Kd -o 0 0 1 C:/lights_lod0.dds
+map_d -o 0 0 1 C:/lights_lod0.dds
+
+newmtl RIM
+Ns 879.778625
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 3
+
+newmtl RIM_LAMBO_CENTERCAP
+Ns 442.751007
+Ka 1.000000 1.000000 1.000000
+Kd 0.338769 0.338769 0.338769
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_d -o 0 0 1 C:/Rim_decal_cen_lambo.DDS
+map_Bump -o 0 0 1 -bm 1.000000 C:/Rim_decal_cen_lambo_nm.dds
+
+newmtl Reverse_bulb
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/rgbaffffff99.dds
+map_d -o 0 0 1 C:/rgbaffffff99.dds
+
+newmtl ST_DECAL
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/41.dds
+map_d -o 0 0 1 C:/41.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/90.DDS
+
+newmtl ST_LEATHER
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o -14.5 -14.5 1 -s 0.033333335 0.033333335 1 C:/plastic.dds
+map_Ks -o -14.5 -14.5 1 -s 0.033333335 0.033333335 1 C:/st_ao.dds
+map_d -o -14.5 -14.5 1 -s 0.033333335 0.033333335 1 C:/plastic.dds
+map_Bump -o -14.5 -14.5 1 -s 0.033333335 0.033333335 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl THIRD_BL_GLASSh
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/ext_glass.dds
+map_d -o 0 0 1 C:/ext_glass.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/2.DDS
+
+newmtl TIRE
+Ns 20.755230
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/WHEEL_D.png
+map_d C:/WHEEL_D.png
+map_Bump -bm 1.000000 C:/WHEEL_N.png
+
+newmtl WIN_DOT
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/26.dds
+map_d -o 0 0 1 C:/26.dds
+
+newmtl WIPER
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.700000 0.700000 0.700000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/plastic.dds
+map_d -o 0 0 1 C:/plastic.dds
+map_Bump -o 0 0 1 -bm 1.000000 C:/flat_nm.dds
+
+newmtl bool
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.020000 0.020000 0.020000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/bool.dds
+map_d -o 0 0 1 C:/bool.dds
+
+newmtl chrome
+Ns 854.028564
+Ka 1.000000 1.000000 1.000000
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/rgba8c8d8dff.dds
+map_d -o 0 0 1 C:/rgba8c8d8dff.dds
+
+newmtl exhaust
+Ns 598.368958
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd C:/EXHAUST_D.png
+map_d C:/EXHAUST_D.png
+
+newmtl gls_colored
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/rgbacd1d0099.dds
+map_d -o 0 0 1 C:/rgbacd1d0099.dds
+
+newmtl gls_colored_OR
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.600000 0.600000 0.600000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/blankwhite_diff.dds
+map_d -o 0 0 1 C:/blankwhite_diff.dds
+
+newmtl gls_colored_RED
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/rgbaff030099.dds
+map_d -o 0 0 1 C:/rgbaff030099.dds
+
+newmtl gls_lightbulb
+Ns 863.533264
+Ka 1.000000 1.000000 1.000000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/rgbaffffff99.dds
+map_d -o 0 0 1 C:/rgbaffffff99.dds
+
+newmtl lights_smooth_CH1
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/blankwhite_diff.dds
+map_d -o 0 0 1 C:/blankwhite_diff.dds
+
+newmtl plastic_CH1_Custom_020218FF
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/rgba020218ff.dds
+map_d -o 0 0 1 C:/rgba020218ff.dds
+
+newmtl steel_bolts
+Ns 971.555542
+Ka 1.000000 1.000000 1.000000
+Ks 0.200000 0.200000 0.200000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 3
+map_Kd -o 0 0 1 C:/rgba727473ff.dds
+map_d -o 0 0 1 C:/rgba727473ff.dds
